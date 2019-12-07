@@ -38,6 +38,33 @@ endfunction
 set number
 set guifont=TakaoGothic:h11
 set guifontwide=TakaoGothic:h11
+set nowritebackup
+set nobackup
+set wildmenu
+set ignorecase
+set smartcase
+set wrapscan
+set incsearch
+set hlsearch
+set showmatch matchtime=1
+set cmdheight=2
+set laststatus=2
+set showcmd
+set display=lastline
+set guioptions+=a
+set showmatch
+set smartindent
+set noswapfile
+set title
+set clipboard=unnamed,autoselect
+nnoremap <Esc><Esc> :nohlsearch<CR><Esc>
+syntax on
+
+" 半角タブ
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
 
 " 文字コードの設定
 set encoding=utf-8
