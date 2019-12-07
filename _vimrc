@@ -59,6 +59,10 @@ set title
 set clipboard=unnamed,autoselect
 nnoremap <Esc><Esc> :nohlsearch<CR><Esc>
 syntax on
+set autoread
+set ruler
+set hidden
+set paste
 
 " 半角タブ
 set expandtab
