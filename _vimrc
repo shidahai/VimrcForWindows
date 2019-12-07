@@ -1,4 +1,7 @@
 source $VIMRUNTIME/vimrc_example.vim
+source C:\Vim\vimfiles\indent\*.vim
+source C:\Vim\vimfiles\syntax\*.vim
+source C:\Vim\vimfiles\keymap\*.vim
 
 set diffexpr=MyDiff()
 function MyDiff()
@@ -57,18 +60,11 @@ set smartindent
 set noswapfile
 set title
 set clipboard=unnamed,autoselect
-nnoremap <Esc><Esc> :nohlsearch<CR><Esc>
-syntax on
 set autoread
 set ruler
 set hidden
 set paste
-
-" インデント
-set expandtab
-set shiftwidth=4
-set softtabstop=4
-set tabstop=4
+set noundofile
 
 " 文字コード
 set encoding=utf-8
