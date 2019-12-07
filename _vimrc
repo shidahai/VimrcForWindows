@@ -34,7 +34,7 @@ function MyDiff()
   endif
 endfunction
 
-" $B4pK\@_Dj(B
+" 基本設定
 set number
 set guifont=TakaoGothic:h11
 set guifontwide=TakaoGothic:h11
@@ -64,13 +64,12 @@ set ruler
 set hidden
 set paste
 
-" $BH>3Q%?%V(B
+" インデント
 set expandtab
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
 
-" $BJ8;z%3!<%I$N@_Dj(B
+" 文字コード
 set encoding=utf-8
-set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
-set fileformats=unix,dos,mac
+set fileencoding=utf-8
